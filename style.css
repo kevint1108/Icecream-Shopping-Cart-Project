@@ -1,0 +1,89 @@
+.icecream-container {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    margin: 20px auto; 
+}
+
+.icecream-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.page-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 20px;
+}
+    
+.page1 {
+    flex: 1;
+    }
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    background-color: pink;
+    color: white;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.page2 {
+    width: 800px; 
+    background-color: lightblue;
+    padding: 20px;
+}
+
+h2{
+    background-color: pink;
+    color: white;
+    padding: 20px 0;
+    font-size: 2em;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.container h3{
+    background-color: pink;
+    color:white;
+    padding: 10px;
+}
+
+.container label{
+    display: block;
+    margin: 5px 0;
+}
+
+.item-cell {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+    }
+    .item-image {
+    width: 100px;
+    height: 100px;
+    }
+    .item-description {
+    flex: 3;
+    text-align: left;
+    padding-left: 20px;
+    }
+    .item-image img {
+    width: 100px;
+    height: 100px;
+    }

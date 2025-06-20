@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ice Cream Sundae Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Ice Cream Sundae Shop</h1>
+
+    <div class = "page-container">
+        <div class = "page1">
+            <div class = "icecream-container" id="Ice Cream">
+                <img src="assets/background.png" id ="background" alt ="Background">
+                <img src="" id="topping-banana" alt="Banana" style="display: none;">
+                <img src="assets/vanilla_icecream.png" id="icecream" alt="Ice Cream">
+                <img src="" id="sauce" alt="Sauce" style="display: none;">
+                <img src="assets/bowl.png" id="bowl"  alt="Bowl">
+                <img src="" id="topping-sprinkles" alt="Sprinkles" style="display: none;">
+                <img src="" id="topping-cherry" alt="Cherry" style="display: none;">
+                <img src="" id="topping-peanuts" alt="Peanuts" style="display: none;">
+            </div>
+
+            <div class="container">
+                <div>
+                    <h3>Choose Your Ice Cream Flavor</h3>
+                <label>
+                    <label>
+                        <input type="radio" name="icecream" value="Vanilla" onclick="updateIcecream('icecream', 'vanilla_icecream.png')" checked> Vanilla
+                    </label>
+                    <label>
+                        <input type="radio" name="icecream" value="Chocolate" onclick="updateIcecream('icecream','chocolate_icecream.png')"> Chocolate
+                    </label>
+                    <label>
+                        <input type="radio" name="icecream" value="Strawberry" onclick="updateIcecream('icecream','strawberry_icecream.png')"> Strawberry
+                    </label>
+                    <label>
+                        <input type="radio" name="icecream" value="Sherbert" onclick="updateIcecream('icecream','sherbert_icecream.png')"> Sherbert
+                    </label>
+                </div>
+
+        <div>
+            <h3>Choose Your Sauce</h3>
+            <label>
+                <label>
+                    <input type="radio" name="sauce" value="None" onclick="updateIcecream('sauce', 'none')" checked> None
+                </label>
+                <label>
+                    <input type="radio" name="sauce" value="Chocolate" onclick="updateIcecream('sauce','chocolate_sauce.png')"> Chocolate Sauce
+                </label>
+                <label>
+                    <input type="radio" name="sauce" value="Caramel" onclick="updateIcecream('sauce','caramel_sauce.png')"> Caramel Sauce
+                </label>
+        </div>
+
+        <div>
+            <h3>Add Your Toppings</h3>
+            <label>
+                <label>
+                    <input type="checkbox" id="banana" value="Banana" onclick="toggleTopping('topping-banana', 'banana.png')"> Banana
+                </label>
+                <label>
+                    <input type="checkbox" id="sprinkles" value="Sprinkles" onclick="toggleTopping('topping-sprinkles','sprinkles.png')"> Sprinkles
+                </label>
+                <label>
+                    <input type="checkbox" id="cherry" value="Cherry" onclick="toggleTopping('topping-cherry','cherry.png')"> Cherry
+                </label>
+                <label>
+                    <input type="checkbox" id="peanuts" value="Peanuts" onclick="toggleTopping('topping-peanuts','peanuts.png')"> Peanuts
+                </label>
+                </div>
+                <button id="add-to-cart" onclick="addToCart()">Add To Cart</button>
+            </div>
+        </div>
+        <div class = "page2">
+            <h2> Shopping Cart</h2>
+        </div>
+    </div>
+    
+   <script src="scripts.js"></script>
+</body>
+</html>
