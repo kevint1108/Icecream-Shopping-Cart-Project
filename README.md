@@ -1,3 +1,22 @@
+🍦 Ice Cream Shopping Cart
+A fun and interactive shopping cart application for ordering your favorite ice creams! This project allows users to browse different ice cream flavors, add them to a cart, adjust quantities, and proceed to checkout.
+
+🚀 Features
+🧁 Browse a selection of ice cream products
+
+➕ Add or remove items from the shopping cart
+
+🔢 Adjust item quantities
+
+🛒 View cart summary with total price
+
+💳 (Optional) Simulated checkout flow
+
+📱 Responsive design for mobile and desktop
+
+🛠️ Tech Stack
+HTML5, CSS3, JavaScript (Vanilla)
+or
 
 React + Tailwind CSS + Context API
 or
